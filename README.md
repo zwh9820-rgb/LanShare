@@ -36,8 +36,7 @@ Updates based on the full v5.4 release:
 - Enabled the WsgiDavDirBrowser middleware. Accessing port 8081 via web browser no longer returns 403; WebDAV directories can be browsed directly
 - WebDAV file read/write, group permission and web interface features remain unchanged from v5.4
 
-##⚠️It still needs further revisions. I'll package and embed these two web pages into this LanShare desktop application later, so there is no need to open a browser; everything will be integrated within a single software window. Improvements to other functions and pages will be added at a later time.
-
+##⚠️It still needs further revisions. I'll package and embed these two web pages into this LanShare desktop application later, so there is no need to open a browser; everything will be integrated within a single software window. Improvements to other functions and pages will be added at a later time.(9.22,17.36, WebDAV seems to have some issues. It requires too many permissions, which is quite troublesome. I'll try the built-in SMB instead.)
 ## 📄 License
 MIT License
 
